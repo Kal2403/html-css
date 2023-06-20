@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 02/2 - Tablas en HTML</title>
+</head>
+<body>
+  <style>
+    .container {
+      width: 100%;
+      height: 500px;
+      margin: auto auto;
+      text-align: center;
+    }
+
+    table {
+      border-collapse: collapse;
+      display: flex;
+      justify-content: center;
+    }
+
+    td, th {
+      border: 1px solid #ccc;
+      padding: 8px;
+    }
+
+    a {
+      text-decoration: none;
+      color: blue;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+  <div class="container">
+    <h1>Tablas en HTML</h1>
+    <table>
+      <tr>
+        <th>Titulo</th>
+        <th>Autor</th>
+        <th>Año de publicacion</th>
+        <th>Enlace a Amazon</th>
+      </tr>
+      <tr>
+        <td>Avatar: El Sentido del Agua</td>
+        <td>James Cameron</td>
+        <td>2022</td>
+        <td><a target="_blank" href="https://www.amazon.es/Avatar-Sentido-Steelbook-Blu-ray-Extras/dp/B0C61THNYT/ref=bs_c_dvd_sccl_1/262-4720484-8250263?pd_rd_w=pBNiH&content-id=amzn1.sym.22a8c146-5655-4677-8e49-50eee0d1d0dc&pf_rd_p=22a8c146-5655-4677-8e49-50eee0d1d0dc&pf_rd_r=FHMXDY2CYBZWEAY3EWST&pd_rd_wg=2QkYI&pd_rd_r=73fc6fff-05e6-4d9a-9378-67e09c901289&pd_rd_i=B0C61THNYT&psc=1">Buy in Amazon</a></td>
+      </tr>
+      <tr>
+        <td>¿A qué sabe la luna?</td>
+        <td>Michael Greniec</td>
+        <td>2007</td>
+        <td><a target="_blank" href="https://www.amazon.es/sabe-luna-libros-para-so%C3%B1ar/dp/8484645649?ref_=Oct_d_omg_d_1349107031_2&pd_rd_w=GHMkE&content-id=amzn1.sym.a54d6b2a-5cf6-408d-b5e3-57d5a2107811&pf_rd_p=a54d6b2a-5cf6-408d-b5e3-57d5a2107811&pf_rd_r=2V71RXE0CWYV7WN83SNG&pd_rd_wg=tMtq6&pd_rd_r=d63fd6f0-663c-4350-aeb9-6feb7cca5879&pd_rd_i=8484645649">Buy in Amazon</a></td>
+      </tr>
+      <tr>
+        <td>De sangre y cenizas</td>
+        <td>JENNIFER ARMENTROUT</td>
+        <td>2021</td>
+        <td><a target="_blank" href="https://www.amazon.es/sangre-y-cenizas-RomanceParanormal/dp/8417854312?ref_=Oct_d_omg_d_1349107031_0&pd_rd_w=GHMkE&content-id=amzn1.sym.a54d6b2a-5cf6-408d-b5e3-57d5a2107811&pf_rd_p=a54d6b2a-5cf6-408d-b5e3-57d5a2107811&pf_rd_r=2V71RXE0CWYV7WN83SNG&pd_rd_wg=tMtq6&pd_rd_r=d63fd6f0-663c-4350-aeb9-6feb7cca5879&pd_rd_i=8417854312">Buy in Amazon</a></td>
+      </tr>
+    </table>
+  </div>
+</body>
+</html>
