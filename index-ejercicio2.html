@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio 02 - Formularios en HTML</title>
+</head>
+<style>
+  .container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 70%;
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  button {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 0;
+  }
+</style>
+<body>
+  <div class="container">
+    <h1>Formularios en HTML</h1>
+    <form action="/">
+      <input type="text" name="nombre" placeholder="Nombre" required>
+      <input type="number" name="edad" min="18" placeholder="Edad" required>
+      <input type="text" name="frase-favorita" placeholder="Frase Favorita" required>
+      <button type="submit">Enviar</button>
+      <button type="reset">Reset</button>
+    </form>
+  </div>
+</body>
+</html>
