@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registrate en los formularios</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Registrate en los formularios</h2>
+    <div class="google_facebook-container">
+      <button><i class="fa-brands fa-google"></i> Seguir con Google</button>
+      <button><i class="fa-brands fa-facebook"></i> Seguir con Facebook</button>
+    </div>
+    <div class="lines">
+      <div class="line"></div>
+      <div>O</div>
+      <div class="line"></div>
+    </div>
+    <form action="/">
+      <div class="name_username-container">
+        <div class="name-container">
+          <label for="name">Name</label>
+          <input type="text" name="name">
+        </div>
+        <div class="username-container">
+          <label for="username">Username</label>
+          <input type="text" name="username">
+        </div>
+      </div>
+      <div class="email-container">
+        <label for="email">Email</label>
+        <input type="email">
+      </div>
+      <div class="password-container">
+        <label for="password">Password</label>
+        <input type="password" min="6" max="30" placeholder="6+ caracteres">
+      </div>
+      <div class="radio-container">
+        <input name="radio" type="radio">
+        <label for="radio">Acepto las condiciones y el aviso legal</label>
+      </div>
+      <button class="btn" type="submit">Crear Cuenta</button>
+    </form>
+  </div>
+</body>
+</html>

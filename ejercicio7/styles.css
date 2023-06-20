@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', sans-serif;
+  background-color: #161717;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  color: #fff;
+}
+
+.container h2 {
+  font-size: 40px;
+}
+
+.google_facebook-container {
+  display: flex;
+  gap: 20px;
+}
+
+.google_facebook-container button {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  background: #fff;
+  border-color: #ccc;
+}
+
+.google_facebook-container button .fa-google {
+  font-size: 24px;
+  color: red;
+}
+
+.google_facebook-container button .fa-google:hover {
+  color: #fff;
+}
+
+.google_facebook-container button .fa-facebook {
+  font-size: 24px;
+  color: blue;
+}
+
+.google_facebook-container button .fa-facebook:hover {
+  color: #fff;
+}
+
+.google_facebook-container button:hover:first-child {
+  color: #fff;
+  background-color: orangered;
+}
+
+.google_facebook-container button:hover:last-child {
+  color: #fff;
+  background-color: blue;
+}
+
+.lines {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.line {
+  width: 230px;
+  height: 1px;
+  background-color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  width: 65%;
+}
+
+.name_username-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 48%;
+}
+
+.username-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 48%;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.password-container {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.password-container input {
+  padding-left: 0;
+}
+
+input {
+  padding: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #212121;
+}
+
+input:hover {
+  background-color: #454045;
+}
+
+.btn {
+  padding: 10px 0;
+  border: none;
+  background-color: lightcoral;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: rgba(240, 128, 128, 0.734);
+}
