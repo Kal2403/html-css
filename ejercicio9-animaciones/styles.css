@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.btn-modern {
+  font-size: 24px;
+  padding: 10px 15px;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-modern:hover {
+  transform: translateY(-5px);
+  box-shadow: 5px 3px;
+  background-color: black;
+  border-color: #fff;
+  color: #fff;
+  transition: 0.4s;
+}
