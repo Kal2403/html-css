@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+
+.btn {
+  padding: 10px;
+  border-radius: 8px;
+  border-color: #ccc;
+}
+
+.btn::before {
+  content: '¡Hecho!';
+}
+
+.btn:hover {
+  color: white;
+  background-color: green;
+}
